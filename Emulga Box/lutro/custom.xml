@@ -1,0 +1,14 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<view name="system">
+		<image name="background" extra="true">
+      		<path>./data/bg.jpg</path>
+    	</image>
+		<text name="info1" extra="true">
+			<text>Lutro is an experimental lua game framework</text>
+		</text>
+		<text name="info1" extra="true">
+			<text>for libretro following the LÖVE API.</text>
+		</text>
+	</view>
+</theme>

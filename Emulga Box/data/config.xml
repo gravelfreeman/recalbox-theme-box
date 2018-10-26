@@ -1,0 +1,15 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	<include subset="iconset" name="1-standard icons">./iconsets/default.xml</include>
+	<include subset="iconset" name="2-snes">./iconsets/snes.xml</include>
+	<include subset="iconset" name="3-snes alt">./iconsets/snesalt.xml</include>
+	<include subset="iconset" name="4-xbox">./iconsets/xbox.xml</include>
+	<include subset="iconset" name="5-psx">./iconsets/psx.xml</include>	
+	<include subset="iconset" name="6-xbox one">./iconsets/xboxone.xml</include>
+	<include subset="iconset" name="7-arcade">./iconsets/arcade.xml</include>
+	<include subset="systemview" name="1-wheel right">./systemviews/wheel_right.xml</include>
+	<include subset="systemview" name="2-wheel attract">./systemviews/wheel_attract.xml</include>
+	<include subset="systemview" name="3-wheel center">./systemviews/wheel_center.xml</include>
+	<include subset="systemview" name="4-carousel display">./systemviews/carousel_display.xml</include>
+	<include subset="systemview" name="5-carousel legacy">./systemviews/carousel_legacy.xml</include>
+</theme>

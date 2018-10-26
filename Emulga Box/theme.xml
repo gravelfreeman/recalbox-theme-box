@@ -1,0 +1,270 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./data/config.xml</include>-->
+	<include>./$system/custom.xml</include>
+
+	<view name="system">
+		<sound name="bgsound">
+	      <path>./$system/system.ogg</path>
+	    </sound>
+		<carousel name="systemcarousel">
+			<color>FFFFFF00</color>
+		</carousel>
+		<text name="systemInfo">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<color>FFFFFF</color>
+		</text>
+		<image name="systeminfo, systeminfo2, systeminfo3" extra="true">
+			<color>EEEEEE</color>
+		</image>
+		<image name="controller" extra="true">
+			<path>./$system/data/controller.svg</path>
+		</image>
+		<image name="controller" extra="true" region="eu">
+			<path>./$system/data/eu/controller.svg</path>
+		</image>
+		<image name="controller" extra="true" region="jp">
+			<path>./$system/data/jp/controller.svg</path>
+		</image>
+		<image name="controller" extra="true" region="us">
+			<path>./$system/data/us/controller.svg</path>
+		</image>
+		<image name="consolegame" extra="true">
+			<path>./$system/data/consolegame.svg</path>
+		</image>
+		<image name="consolegame" extra="true" region="eu">
+			<path>./$system/data/eu/consolegame.svg</path>
+		</image>
+		<image name="consolegame" extra="true" region="jp">
+			<path>./$system/data/jp/consolegame.svg</path>
+		</image>
+		<image name="consolegame" extra="true" region="us">
+			<path>./$system/data/us/consolegame.svg</path>
+		</image>
+		<image name="console" extra="true">
+			<path>./$system/data/console.svg</path>
+		</image>
+		<image name="console" extra="true" region="eu">
+			<path>./$system/data/eu/console.svg</path>
+		</image>
+		<image name="console" extra="true" region="jp">
+			<path>./$system/data/jp/console.svg</path>
+		</image>
+		<image name="console" extra="true" region="us">
+			<path>./$system/data/us/console.svg</path>
+		</image>
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+			<color>FFFFFF</color>
+		</text>
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+			<alignment>left</alignment>
+			<fontPath>./data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontSize>0.021</fontSize>
+		</text>
+	</view>
+
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontPath>./data/arts/Bariol_Regular_Italic.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>000000CC</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>./data/arts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.035</fontSize>
+			<color>000000CC</color>
+			<separatorColor>000000CC</separatorColor>
+			<selectorColor>00000050</selectorColor>
+			<selectedColor>FFFFFFCC</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./data/arts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.028</fontSize>
+			<color>000000CC</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>./data/arts/Bariol_Regular.otf</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>000000CC</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>FFFFFFCC</color>
+			<fadePath>./data/arts/fade.png</fadePath>
+		</menuBackground>
+		<menuIcons name="menuicons">
+			<iconKodi>./data/arts/menu_icons/Kodi.png</iconKodi>
+			<iconSystem>./data/arts/menu_icons/System.png</iconSystem>
+			<iconUpdates>./data/arts/menu_icons/Updates.png</iconUpdates>
+			<iconGames>./data/arts/menu_icons/Games.png</iconGames>
+			<iconControllers>./data/arts/menu_icons/Controllers.png</iconControllers>
+			<iconUI>./data/arts/menu_icons/UI.png</iconUI>
+			<iconSound>./data/arts/menu_icons/Sound.png</iconSound>
+			<iconNetwork>./data/arts/menu_icons/Network.png</iconNetwork>
+			<iconScraper>./data/arts/menu_icons/Scraper.png</iconScraper>
+			<iconAdvanced>./data/arts/menu_icons/Advanced.png</iconAdvanced>
+			<iconQuit>./data/arts/menu_icons/Quit.png</iconQuit>
+			<iconRestart>./data/arts/menu_icons/Restart.png</iconRestart>
+			<iconShutdown>./data/arts/menu_icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./data/arts/menu_icons/Fastshutdown.png</iconFastShutdown>			
+		</menuIcons>
+	</view>
+	
+	<view name="system, menu, basic, detailed">
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./$system/data/bg.jpg</path>
+		</image>
+		<image name="logo">
+			<path>./$system/data/logo.png</path>
+		</image>
+		<image name="logo" region="eu">
+			<path>./$system/data/eu/logo.png</path>
+		</image> 
+		<image name="logo" region="jp">
+			<path>./$system/data/jp/logo.png</path>
+		</image> 
+		<image name="logo" region="us">
+			<path>./$system/data/us/logo.png</path>
+		</image> 
+		<text name="logoText">
+			<color>000000</color>
+		</text>
+		<helpsystem name="help">
+			<fontPath>./data/arts/steelfishrg.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<textColor>FFFFFF50</textColor>
+			<iconColor>FFFFFF50</iconColor>
+		</helpsystem>
+	</view>
+		
+	<view name="basic, detailed">
+		<image name="logo">
+			<pos>0.5 0.127</pos>
+			<maxSize>0.41 0.1</maxSize>
+			<origin>0.5 1</origin>
+		</image>
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.3 0.5</pos>
+			<maxSize>0.65 0.65</maxSize>
+		</image>
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_genre, md_lbl_players">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.144 0.02</size>
+			<color>FFFFFF</color>
+		</text>
+		<text name="md_lbl_rating">
+			<pos>0.025 0.89</pos>
+		</text>
+		<text name="md_players, md_genre">
+			<size>0.14 0.02</size>
+		</text>
+		<text name="md_lbl_players">
+			<pos>0.165 0.89</pos>
+		</text>		
+		<text name="md_players">
+			<pos>0.21 0.891</pos>
+		</text>
+		<text name="md_lbl_releasedate">
+			<pos>0.26 0.89</pos>
+		</text>		
+		<datetime name="md_releasedate">
+			<pos>0.31 0.891</pos>			
+		</datetime>			
+		<text name="md_lbl_genre">
+			<pos>0.4 0.89</pos>
+		</text>		
+		<text name="md_genre">
+			<pos>0.435 0.891</pos>
+		</text>
+		<text name="md_genre, md_players">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./data/arts/Exo2-RegularCondensed.otf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0.144 0.02</size>
+			<color>FFFFFF</color>
+		</text>
+		<text name="md_description">
+			<lineSpacing>1</lineSpacing>
+			<pos>0.61 0.872</pos>
+			<size>0.36 0.1</size>
+			<fontSize>0.02</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./data/arts/Exo2-SemiBoldCondensed.otf</fontPath>
+			<fontSize>0.024</fontSize>
+			<color>FFFFFF</color>
+		</text>
+		<datetime name="md_releasedate">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./data/arts/Exo2-RegularCondensed.otf</fontPath>
+			<fontSize>0.02</fontSize>
+			<size>0 0.02</size>
+			<color>FFFFFF</color>
+		</datetime>
+		<rating name="md_rating">
+			<pos>0.065 0.89</pos>
+			<filledPath>./../arts/rating_filled.svg</filledPath>
+			<unfilledPath>./../arts/rating_empty.svg</unfilledPath>
+			<size>0.032 0.02</size>
+			<filledPath>./$system/data/icon_filled.svg</filledPath>
+			<unfilledPath>./$system/data/icon_empty.svg</unfilledPath>
+		</rating>
+        <text name="md_folder_name">
+            <forceUppercase>1</forceUppercase>
+			<fontPath>./data/arts/Exo2-BoldCondensed-F.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<size>0.36 0.65</size>
+            <pos>0.61 0.6</pos>
+            <color>FFFFFF</color>
+            <alignment>center</alignment>
+        </text>
+        <image name="md_folder_image_0, md_folder_image_1, md_folder_image_2, md_folder_image_3, md_folder_image_4, md_folder_image_5, md_folder_image_6, md_folder_image_7, md_folder_image_8">
+            <origin>0.5 0.5</origin>
+            <maxSize>0.15 0.2</maxSize>
+        </image>
+        <image name="md_folder_image_0">
+            <pos>0.15 0.28</pos>
+        </image>
+        <image name="md_folder_image_1">
+            <pos>0.30 0.28</pos>
+        </image>
+        <image name="md_folder_image_2">
+            <pos>0.45 0.28</pos>
+        </image>
+        <image name="md_folder_image_3">
+            <pos>0.15 0.5</pos>
+        </image>
+        <image name="md_folder_image_4">
+            <pos>0.30 0.5</pos>
+        </image>
+        <image name="md_folder_image_5">
+            <pos>0.45 0.5</pos>
+        </image>
+        <image name="md_folder_image_6">
+            <pos>0.15 0.72</pos>
+        </image>
+        <image name="md_folder_image_7">
+            <pos>0.30 0.72</pos>
+        </image>
+        <image name="md_folder_image_8">
+            <pos>0.45 0.72</pos>
+        </image>
+		<textlist name="gamelist">
+			<pos>0.61 0.18</pos>
+			<size>0.36 0.65</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<fontPath>./data/arts/Exo2-BoldCondensed-F.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<selectorColor>00000090</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>FFFFFF75</primaryColor>
+			<secondaryColor>FFFFFF75</secondaryColor>
+		</textlist>
+	</view>
+</theme>

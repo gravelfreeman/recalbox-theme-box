@@ -1,0 +1,38 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<feature supported="carousel">
+	<view name="system">
+		<carousel name="systemcarousel">
+			<pos>0.5 0.75</pos>
+			<origin>0.5 1</origin>
+			<color>00000050</color>
+		</carousel>
+		<text name="systemInfo">
+			<pos>0.5 0.925</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.47 0.125</size>
+			<backgroundColor>DDDDDD00</backgroundColor>
+			<fontPath>./../arts/Exo2-BoldCondensed.otf</fontPath>
+		</text>
+		<image name="background" extra="true"></image>
+		<image name="console" extra="true">
+			<pos>0.5 0.45</pos>
+			<maxSize>0.4 0.25</maxSize>
+			<origin>0.5 1</origin>
+		</image>
+		<image name="consolegame" extra="true">
+			<pos>2 2</pos>
+			<maxSize>0.01 0.01</maxSize>
+			<origin>0 0</origin>
+		</image>
+		<image name="controller" extra="true">
+			<pos>2 2</pos>
+			<maxSize>0.15 0.25</maxSize>
+			<origin>1 1</origin>
+		</image>
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="false">
+			<pos>1 1</pos>
+		</text>
+	</view>
+	</feature>	
+</theme>
