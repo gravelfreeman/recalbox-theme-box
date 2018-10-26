@@ -1,3 +1,5 @@
+![Emugla Logo](https://i.postimg.cc/dtTN6msD/github.png)
+
 Theme 'Emulga Box' released by Emulga based from original 'recalbox-next’ theme
 For use with EmulationStation (http://www.emulationstation.org/)
 
