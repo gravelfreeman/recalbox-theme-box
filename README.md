@@ -6,7 +6,7 @@ We’re proud to present you the new official Emulga Box theme. It’s been a lo
 If you like what we do please consider donating -> https://emul.ga
 
 Credits
-=======
+-------
 - Emulga Box - FreemanQC (Emulga)
 - Backgrounds - Niglurion (LaunchBox)
 - Original Theme - Recalbox Team
