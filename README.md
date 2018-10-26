@@ -10,3 +10,28 @@ Credits
 - Emulga Box - FreemanQC (Emulga)
 - Backgrounds - Niglurion (LaunchBox)
 - Original Theme - Recalbox Team
+
+
+Screenshots
+-----------
+![SYSTEMVIEW-1](https://s14.postimg.cc/6ot7vmgo1/1-system.png)
+
+![SYSTEMVIEW-2](https://s14.postimg.cc/x9vqr6qr5/2-system.png)
+
+![SYSTEMVIEW-3](https://s14.postimg.cc/5zafj9vk1/3-system.png)
+
+![SYSTEMVIEW-4](https://s14.postimg.cc/9vnrfaqu9/4-system.png)
+
+![SYSTEMVIEW-5](https://s14.postimg.cc/df9p53lu9/5-system.png)
+
+![NES](https://s14.postimg.cc/eub9tupi9/gl-nes.png)
+
+![ARCADE](https://s14.postimg.cc/ph52z8fn5/gl-arcade.png)
+
+![GB](https://s14.postimg.cc/hbn112z41/gl-gb.png)
+
+![VECTREX](https://s14.postimg.cc/5zafjc8fl/gl-vectrex.png)
+
+![WSWANC](https://s14.postimg.cc/8gm6qn2mp/gl-wswanc.png)
+
+![MENU](https://s14.postimg.cc/wx4cl3vnl/menu.pnG)
