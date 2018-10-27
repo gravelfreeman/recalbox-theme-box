@@ -25,6 +25,13 @@ fi
 /bin/rm -fv /recalbox/system/resources/splash/*
 /bin/echo "Installing Emulga Box splash resources..."
 /bin/cp -v splash/* /recalbox/system/resources/splash/
+/bin/echo "Updating Splash Screen Length in recalbox.conf"
+if grep -q "system.splash.length=-1" "/recalbox/share/system/recalbox.conf"; then
+/bin/echo "Splash length already adjusted..."
+else
+/bin/sed -i "s/system.splash.length=0/system.splash.length=38/g" "/recalbox/share/system/recalbox.conf"
+/bin/echo "Done..."
+fi
 /bin/mount -o remount,ro /
 /bin/echo "Removing installation resources..."
 cd /recalbox/share
